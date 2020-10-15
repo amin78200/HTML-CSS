@@ -1,0 +1,18 @@
+body{
+    background-color: red;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+nav{
+    background-color:white ;
+    color:white ;
+    height:100px ;
+}
+
+*{
+    text-align: center;
+}

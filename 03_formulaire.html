@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires HTML</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+
+</head>
+<body>
+    <!-- je déclare mon formulaire avec la balise form-->
+    <form>
+        <label>
+            pseudo
+            <input type="text" id="pseudo" name="pseudo" placeholder=="exemple" required>
+            <!--l'id sert à utiliser les donnée avec d'autres langages,
+                le placeholder contient le texte qui apparait dans l'input
+                type précise le type de donnée récupérée
+                required précise au navigateur que le champs est à renseigner obligatoirement-->
+        </label>
+    
+        <br> 
+        <!--mot de passe-->
+        <label  for="mdp">
+            mot de passe <span title="le mot de passe peut contenir..."></span>
+        </label>
+        <input type="password" name="mdp" placeholder="mot de passe" required>
+
+        <br>
+
+        <!--email-->
+        <label for="email"> Email </label>
+        <input type="email" name="email" placeholder="email">
+      
+        <br>
+
+        <!-- fichiers-->
+        <label for="photo">photo</label>
+        <input type="file" name="photo">
+
+        <br>
+        <br>
+
+        <!--case a cocher checkbox-->
+        <!--plusieurs choix-->
+        <label for="question1">quelle déstination irait tu</label>
+        <p>
+            <input type="checkbox" name="réponse01">espagne       
+            <input type="checkbox" name="réponse01">algerie
+            <input type="checkbox" name="réponse01">france
+         </p>
+
+         <br>
+         <br>
+
+         <!-- cases a cocher radio-->
+         <!--un choix-->
+   <label for="question1">qui seront vos accompagnateur</label> 
+   <p>
+        <input type="radio" name="reponse11"> en famille
+        <input type="radio" name="reponse12"> entre amis
+        <input type="radio" name="reponse13"> solo
+   </p><!--un seul choix avec les boutons radio on force l'utilisateur à choisir-->
+    
+   <br>
+   <br>
+
+   <!--zone de texte-->
+    <label for="commentaires">commentaires</label>
+    <textarea name="commentaires" cols="50" rows="5"></textarea>
+    <!--rows=nombres de lignes - cols= nombre de colonnes/caractéres-->
+    
+
+    <br>
+
+
+    <!--bouton ennvoi du formulaire-->
+    <input type="reset" name="annuler" value="annuler">
+    
+    
+   <br>    
+    
+    
+    
+    <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank" rel="noopener noreferrer">W3schcool, les types d'input</a>
+
+    <br>
+
+    <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input"target="_blank" rel="noopener noreferrer">petite documentation</a>
+
+
+ </form>
+</body>
+</html>

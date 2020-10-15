@@ -1,0 +1,80 @@
+body{
+    font-size: 25px; /*taille de la police*/
+}
+
+h1{
+    background-color: red; /*couleur fond*/
+    color: green;/*couleur du texte*/
+}
+
+section p{
+    color: blue;/* tous les p qui sont dans section*/
+}
+
+section p:first-child{
+    color: orangered;/*1er p dans section*/
+
+}
+
+section p:last-child{
+    color: violet;/* dernier p dans section*/
+}
+
+section p:nth-child(even){/*numero de l'enfant*/
+    color: tomato;/*les p paires*/
+}
+
+section p:nth-child(odd){/*//*/
+    color: rgb(250, 0, 0);/* les p impairs*/
+
+}
+
+section p:nth-child(3),section p:nth-child(10){/*deux selecteurs séparés par une virgule les numéros 3 et 10*/
+    color: orange;
+}
+
+.zone1{
+    color: rebeccapurple;
+}
+.zone2{
+    color: saddlebrown;
+}
+
+.lime{
+    color:rgb(9, 255, 0);
+}
+
+#zone3{
+    background-color: hotpink ;
+}
+#zone3::before{/* ajoute du contenu avant le contenu de la balise*/
+    content: "rajouté avant";/*la propriété content est obligatoire quand on utilise before, le contenu du before ne s'affiche pas dans le html, on peut laisser cette propriété vide,on peut meme ajouter des attributs a une balise (exemple:title)*/
+}
+
+#zone3: after{
+    content:"ajouté apres";
+
+}
+
+li:nth-of-type(2){
+    background-color: darkred;
+    color: deeppink;
+}
+
+li:nth-of-type(1){
+    background-color: fuchsia;
+    color: maroon;
+}
+    
+li:nth-of-type(3){
+    background-color: mediumblue;
+    color: mintcream;
+}
+/* sélectionner le span qui n'as pas de class et seulement lui pour lui appliquer du style*/
+
+.zone4{
+    background-color: navy;
+    color: red;
+}
+
+
