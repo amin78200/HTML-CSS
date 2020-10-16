@@ -1,0 +1,76 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    width: 20%;
+    margin: auto;
+}
+
+
+table{
+    border:4px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 25px;
+}
+
+thead,tfoot{
+    background-color: rgb(0, 0, 0);
+    border:2px solid rgb(255, 255, 255);
+}
+
+tbody{
+    border: 3px solid rgb(2, 2, 2)
+}
+
+th{
+    border: 1px dotted black;
+    padding: 4px; 
+    background-color: rgb(255, 255, 255);(245,206,194); 
+    width: 30%;
+}
+
+td{
+    font-size: 100%;
+    border: 1px dotted black;
+    text-align: center;
+    padding: 5px;
+}
+
+td:first-child{
+    text-align: left;
+    background-color: white;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+td.noir{
+    background-color: black;
+}
+
+td.marron{
+    background-color: rgb(59, 41, 30);
+}
+
+td.beige{
+    background-color: rgb(248, 189, 131);
+}
+
+td.vert{
+    background-color: rgb(21, 44, 21);
+}
+td.blanc{
+    background-color: white;
+}
+
+td.jaune{
+    background-color: yellow;
+}
+
+td.bleuciel{
+    background-color: rgb(0, 217, 255);
+}

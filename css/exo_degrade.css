@@ -1,0 +1,15 @@
+.contenu{
+    height: 30em;
+    width: 30em;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 7%, rgba(0,0,0,1) 24%, rgba(241,255,0,1) 51%);
+    border-radius: 50%;
+}
+
+.contenu3{
+    height: 30em;
+    width: 30em;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(255,0,0,1) 44%, rgba(0,0,0,1) 86%);
+    border-radius: 50%;
+}

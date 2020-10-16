@@ -72,7 +72,7 @@ li:nth-of-type(3){
 }
 /* sélectionner le span qui n'as pas de class et seulement lui pour lui appliquer du style*/
 
-.zone4{
+#zone4 :after{
     background-color: navy;
     color: red;
 }

@@ -1,0 +1,11 @@
+.contenu{
+    height: 45em; /*hauteUr*/
+    width: 45em; /*largeur*/
+    margin: auto; /*placement*/
+    background: linear-gradient( to right,   red, rgb(0, 4, 247));
+    border-radius: 50%; /* arrondie les angles*/
+    /* to right = la premiere couleur a gauche et a droite la derniere*/
+    /*dégradée qui démarre avec la premiére couleur en haut et la dérniere en bas*/
+    /* lien vers un générateur de dégrader*/    
+
+}
