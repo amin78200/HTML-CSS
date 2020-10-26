@@ -1,0 +1,24 @@
+.code{
+    color: rgb(255, 4, 255);
+    background: rgb(255, 255, 255);
+    font-style: italic;
+    display: inline-block;
+}
+body{
+    color: red;
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+a{
+    color: rgb(255, 0, 0);
+}
+h2{
+    color: yellow;
+}
+
+hr{
+    color: rgb(255, 4, 192);
+}
